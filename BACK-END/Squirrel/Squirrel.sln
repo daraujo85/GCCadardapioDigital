@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Domain", "Squirrel.Domain\Squirrel.Domain.csproj", "{4D523B00-2390-4C81-80CD-CE2F0CFA16F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{5F055AE2-4565-4A15-82C0-F22E971FE799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{89411D59-C3CB-49D9-ACA0-3DB52F26995C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0A12BFF5-233B-41B5-9453-FAEDA7E3D981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{188F8113-012C-4011-AD47-9C71EBCCBD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Application", "Squirrel.Application\Squirrel.Application.csproj", "{2E65C81E-0C23-4734-B032-81F1304EE4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.API", "Squirrel.API\Squirrel.API.csproj", "{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{C879011B-4525-46D5-BECB-CC1BD17A0CA3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitkeep = .gitkeep
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrel.Infra.Data", "Squirrel.Infra.Data\Squirrel.Infra.Data.csproj", "{78F334CC-FF3E-4E59-BBC5-AB727F03C092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D523B00-2390-4C81-80CD-CE2F0CFA16F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D523B00-2390-4C81-80CD-CE2F0CFA16F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D523B00-2390-4C81-80CD-CE2F0CFA16F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D523B00-2390-4C81-80CD-CE2F0CFA16F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E65C81E-0C23-4734-B032-81F1304EE4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E65C81E-0C23-4734-B032-81F1304EE4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E65C81E-0C23-4734-B032-81F1304EE4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E65C81E-0C23-4734-B032-81F1304EE4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F334CC-FF3E-4E59-BBC5-AB727F03C092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F334CC-FF3E-4E59-BBC5-AB727F03C092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F334CC-FF3E-4E59-BBC5-AB727F03C092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F334CC-FF3E-4E59-BBC5-AB727F03C092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D523B00-2390-4C81-80CD-CE2F0CFA16F8} = {0A12BFF5-233B-41B5-9453-FAEDA7E3D981}
+		{2E65C81E-0C23-4734-B032-81F1304EE4DE} = {89411D59-C3CB-49D9-ACA0-3DB52F26995C}
+		{0C781D19-DFCF-4B84-AB7E-D5C1DD01AEEF} = {5F055AE2-4565-4A15-82C0-F22E971FE799}
+		{C879011B-4525-46D5-BECB-CC1BD17A0CA3} = {188F8113-012C-4011-AD47-9C71EBCCBD68}
+		{78F334CC-FF3E-4E59-BBC5-AB727F03C092} = {C879011B-4525-46D5-BECB-CC1BD17A0CA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AF91CAF-BC73-41FD-871B-1AAFCB7356E2}
+	EndGlobalSection
+EndGlobal
