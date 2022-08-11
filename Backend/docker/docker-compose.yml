@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: squirrel-postgres
+    image: postgres:latest
+    hostname: localhost
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=s3nh4Sup3rS3gura
+
+  redis:
+    container_name: squirrel-redis
+    image: redis:latest
+    hostname: localhost
+    ports:
+      - 6379:6379
+
+  seq:
+    container_name: squirrel-seq
+    image: datalust/seq:latest
+    hostname: localhost
+    ports:
+      - 5341:80
+    environment:
+      - ACCEPT_EULA=Y
