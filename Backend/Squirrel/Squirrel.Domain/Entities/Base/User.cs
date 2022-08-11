@@ -1,4 +1,4 @@
-﻿namespace Squirrel.Domain.Domains
+﻿namespace Squirrel.Domain.Entities.Base
 {
     internal class User : EntityBase
     {
