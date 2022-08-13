@@ -11,4 +11,12 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Squirrel.Domain\Squirrel.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
